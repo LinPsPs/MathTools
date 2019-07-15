@@ -2,8 +2,11 @@
  *
  * @author Haolin Yu
  */
+
+package support;
+
 public class Point implements Comparable<Point>{
-    Integer x,y;
+    public Integer x,y;
 
     public Point(int x, int y) {
         this.x = x;
