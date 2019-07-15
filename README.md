@@ -1,2 +1,2 @@
-# Graham_Scan
+# GrahamScan
 Implement Graham scan with JavaFx
