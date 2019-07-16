@@ -12,9 +12,6 @@ import support.Point;
 
 /**
  * @author Haolin Yu
- * ID: 111454745
- * Course AMS 345
- * Final Project
  * 
  * This program implements the Graham Scan Algorithm for computing convex hull for points in the plane.
  * 
@@ -27,7 +24,7 @@ public class GrahamScan {
     private Stack<Point> pointStack = new Stack<>();
     private Point firstPoint;
 
-    public static void main(String[] args) {
+    public void start() {
             GrahamScan grahamScan = new GrahamScan();
             grahamScan.readPointList();
             grahamScan.processScan();
